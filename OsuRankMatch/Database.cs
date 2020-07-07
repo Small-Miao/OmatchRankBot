@@ -6,7 +6,7 @@ namespace RegistrationWebsite.Helper
 {
     public class Database
     {
-        const string sqlconnectstr = "server= 39.104.200.83;User Id=osurank;password=7649102;Database=osurank;";
+        const string sqlconnectstr = "";
         internal static MySqlConnection GetConnection()
             {
                 return new MySqlConnection(sqlconnectstr);
