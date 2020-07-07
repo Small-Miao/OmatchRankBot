@@ -15,8 +15,8 @@ namespace OsuRankMatch {
         //定义IRC客户端
         const string ServerIp = "irc.ppy.sh";
         const int ServerPort = 6667;
-        const string botusername = "Fish_EXE";
-        const string botpassword = "dd28fb4c";
+        const string botusername = "********";
+        const string botpassword = "********";
         static List<string> msgqueue = new List<string>();
         const string sqlconnectstr = "server= 39.104.200.83;User Id=osurank;password=7649102;Database=osurank";
         //实例化数据库客户端
