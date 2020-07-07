@@ -18,7 +18,7 @@ namespace OsuRankMatch {
         const string botusername = "********";
         const string botpassword = "********";
         static List<string> msgqueue = new List<string>();
-        const string sqlconnectstr = "server= 39.104.200.83;User Id=osurank;password=7649102;Database=osurank";
+        const string sqlconnectstr = "";
         //实例化数据库客户端
         static MySqlConnection sqlconnect = new MySqlConnection(sqlconnectstr);
         static Dictionary<String, int> matchinglist = new Dictionary<String, int>();
